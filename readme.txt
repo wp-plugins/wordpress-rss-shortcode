@@ -29,3 +29,11 @@ This plugin does not create WordPress posts from feed items.
 = Can I display the date, author or content of an entry? =
 
 Yes, add either show_summary=1, show_date=1 or show_author=1 to the tag.
+
+= I get an error with my RSS feed! =
+
+It seems this is an issue with the RSS code in WordPress, rather than with my plugin.
+
+Make sure your url is valid, contains no spaces, and is properly html-encoded(if you use the HTML editor).
+
+A temporary solutions is to pass your feed through FeedBurner, which does seem to work.
